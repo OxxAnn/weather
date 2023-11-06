@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="header">
+            <input id="input" type="text" spellcheck="false" placeholder="Please, enter the City..">
+            <button id="btn"><img class="btnImage" src="search.png" alt="Search"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <div class="weather">
+            <div id="when-where">
+
+                <i class="wi wi-night-sleet"></i>
+                <p id="city">Miami, FL</p>
+                <p id="date">Wednesday, 6 September 2023</p>
+            </div>
+
+            <div id="now">
+                <p id="temperature">28°</p>
+                <p id="feelslike">Feels Like: 30°</p>
+                <img src="Clear.png" alt="icon" class="weather-icon">
+                <p id="condition">Sunny</p>
+                <p id="variation">Min: 25°  Max: 28°</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="Index.js"></script>
+</body>
+</html>

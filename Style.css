@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url("LavenderSky.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(164,85,161,1) 0%, rgba(226,192,219,1) 100%);
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#input{
+    border: 0;
+    outline: 0;
+    background-color: rgb(218, 186, 211);;
+    border-radius: 20px;
+    padding: 10px 25px;
+    height: 60px;
+    flex: 1;
+    margin-right: 15px;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+#input:focus{
+    background-color: rgb(207, 182, 231);
+}
+#btn{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background:  rgb(218, 186, 211);
+    opacity: 0.9;
+}
+.btnImage {
+    width: 25px;
+}
+#btn:hover{
+    background: rgba(164, 85, 161, 1);
+}
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+#city{
+    color: #280043;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+#date{
+    color: #53008a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#temperature{
+    color: #280043;
+    font-size: 120px;
+    margin: 0;
+    font-weight: bold;
+}
+#feelslike{
+    color: #1f0034;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+#condition{
+    color: #150022;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.weather-icon{
+    width: 100px;
+    opacity: 1;
+}
+#variation{
+    color: #150022;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: #fff;
+    display: none;
+}
